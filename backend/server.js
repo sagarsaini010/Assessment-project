@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://assessment-project-omega.vercel.app/'  // ← your Vercel URL
+    'https://assessment-project-omega.vercel.app'  // ← your Vercel URL
   ],
   credentials: true
 }));
